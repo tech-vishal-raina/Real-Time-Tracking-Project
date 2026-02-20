@@ -2,7 +2,7 @@
 
 A real-time location tracking application that allows multiple users to share their live location on an interactive map. Built with Node.js, Express, Socket.io, and Leaflet.js.
 
-## 🌟 Features
+##  Features
 
 - **Real-Time Location Tracking**: Track multiple users' locations simultaneously using WebSocket connections
 - **Interactive Map**: Visualize locations on an interactive map powered by Leaflet.js and OpenStreetMap
@@ -11,7 +11,7 @@ A real-time location tracking application that allows multiple users to share th
 - **High Accuracy**: Uses browser's geolocation API with high accuracy settings
 - **Responsive Design**: Full-screen map interface that works on desktop and mobile devices
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Node.js, Express.js
 - **Real-Time Communication**: Socket.io
@@ -20,13 +20,13 @@ A real-time location tracking application that allows multiple users to share th
 - **Templating**: EJS
 - **Maps Provider**: OpenStreetMap
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
 
-## 🚀 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -39,7 +39,7 @@ cd realtimetracker_project
 npm install
 ```
 
-## 💻 Usage
+##  Usage
 
 1. Start the server:
 ```bash
@@ -57,7 +57,7 @@ http://localhost:3000
 
 5. Open multiple browser windows/tabs or share the URL with others to see multiple users on the map simultaneously
 
-## 📱 How It Works
+##  How It Works
 
 1. **Location Detection**: The application uses the browser's Geolocation API to continuously track the user's position
 2. **WebSocket Communication**: Location data is sent to the server via Socket.io WebSocket connections
@@ -66,7 +66,7 @@ http://localhost:3000
 5. **Dynamic Updates**: Markers automatically update their position as users move
 6. **Cleanup**: When a user disconnects, their marker is automatically removed from the map
 
-## 🔧 Configuration
+##  Configuration
 
 The server runs on port `3000` by default. To change the port, modify the `server.listen()` call in `app.js`:
 
@@ -74,7 +74,7 @@ The server runs on port `3000` by default. To change the port, modify the `serve
 server.listen(3000); // Change 3000 to your desired port
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 realtimetracker_project/
@@ -90,30 +90,22 @@ realtimetracker_project/
 └── README.md           # Project documentation
 ```
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
 - Location data is only shared with other users connected to the same server instance
 - No location data is stored persistently
 - All communication happens in real-time via WebSocket connections
 - Users must explicitly grant location permissions in their browser
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
-
-This project is licensed under the ISC License.
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Leaflet.js](https://leafletjs.com/) for the mapping library
 - [OpenStreetMap](https://www.openstreetmap.org/) for map tiles
 - [Socket.io](https://socket.io/) for real-time communication
-
-## 📧 Contact
-
-For questions or suggestions, please open an issue on GitHub.
 
 ---
 
