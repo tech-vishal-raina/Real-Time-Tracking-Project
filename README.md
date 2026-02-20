@@ -30,8 +30,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/realtimetracker_project.git
-cd realtimetracker_project
+git clone https://github.com/tech-vishal-raina/Real-Time-Tracking-Project.git
+cd Real-Time-Tracking-Project
 ```
 
 2. Install dependencies:
